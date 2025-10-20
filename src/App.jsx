@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
-import Layout from './components/layout/Layout';
+import Layout from './components/layout/layout';
 import Home from './pages/Home';
 import Tasks from './pages/Tasks';
 import ApiDemo from './pages/ApiDemo';
@@ -21,5 +21,6 @@ function App() {
     </ThemeProvider>
   );
 }
+
 
 export default App;
